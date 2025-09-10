@@ -85,4 +85,3 @@ Date:   2020-11-21
 
     Initial commit
 ```
-1. .
