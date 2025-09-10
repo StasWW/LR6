@@ -34,4 +34,55 @@
 ![[Pasted image 20250910204347.png]]
 Пушу изменения 
 ![[Pasted image 20250910204416.png]]
-6. .
+6. Удаляю ненужную ветку![[Pasted image 20250910204743.png]]
+7. Делаю коммит ![[Pasted image 20250910204756.png]] ![[Pasted image 20250910204803.png]]
+8. Удаляю коммит ![[Pasted image 20250910204818.png]]
+9. Выполняю команду `git log --date=short` и получаю данные о всех коммитах
+```bash
+commit 2aff2d310f3e8ac2d99264474bcb3069f6264478 (HEAD -> report)
+Author: StasWW <01102006stas@gmail.com>
+Date:   2025-09-10
+
+    Добавляю 6 пунктов в ход выполнения работы
+
+commit a00d0f7d2af3677648a731213a2641db30bc9bf4
+Author: StasWW <01102006stas@gmail.com>
+Date:   2025-09-10
+
+    Начало заполнения отчета
+
+commit dc6557a8122422c307fd60b9651dd5f2921afb84 (origin/report, origin/master, origin/HEAD, master)
+Merge: 921f53b 0f9f50d
+Author: StasWW <01102006stas@gmail.com>
+Date:   2025-09-10
+
+    Merge remote-tracking branch 'origin/branch1'
+
+    # Conflicts:
+    #       mergefile.txt
+
+commit 921f53b8d0cebf542c791cf31f04e9b792f385a4
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   2020-11-21
+
+    Обновление информации
+
+commit 0f9f50db68a6983b47398017545532cd0f992846
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   2020-11-21
+
+    Заполнил файл
+
+commit c08a654a63cfc3a7146b2b7015884d9020f5cbf5
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   2020-11-21
+
+    Файл создан пустым
+
+commit 3c6e9131bb47ed6009c28226afb0535c7f6d5964
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   2020-11-21
+
+    Initial commit
+```
+1. .
